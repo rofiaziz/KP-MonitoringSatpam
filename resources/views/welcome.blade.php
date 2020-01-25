@@ -333,7 +333,7 @@ The above copyright notice and this permission notice shall be included in all c
           <div class="col-md-8">
             <div class="card card-chart">
               <div class="card-header">
-                <h5 class="card-title">NASDAQ: AAPL</h5>
+                <h5 class="card-title">NASDAQ: AAPLaaa</h5>
                 <p class="card-category">Line Chart with Points</p>
               </div>
               <div class="card-body">
