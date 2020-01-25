@@ -58,15 +58,24 @@ The above copyright notice and this permission notice shall be included in all c
       </div>
       <div class="sidebar-wrapper">
         <ul class="nav">
+        <!-- icon  -->
           <li class="active ">
             <a href="./dashboard.html">
               <i class="nc-icon nc-bank"></i>
               <p>Beranda</p>
             </a>
           </li>
+          <li>
+            <a href="./icons.html">
+              <i class="nc-icon nc-diamond"></i>
+              <p>Icons</p>
+            </a>
+          </li>
+          <li>
              
         </ul>
       </div>
+      
     </div>
     <div class="main-panel">
       <!-- Navbar -->
