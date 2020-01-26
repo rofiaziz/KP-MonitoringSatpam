@@ -30,3 +30,6 @@ Route::get('/Login', function () {
 Route::get('/JoinNow', function () {
     return view('JoinNow');
 });
+Route::get('/Message', function () {
+    return view('Message');
+});

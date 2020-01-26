@@ -1,10 +1,5 @@
 @extends('master')
 
-@section('Title')
-    <title>
-        GadaMaxima - Daftar Baru
-    </title>
-@endsection
 @section('layout')
 <div class="content">
     <div class="row">

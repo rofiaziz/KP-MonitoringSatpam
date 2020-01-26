@@ -1,8 +1,7 @@
 @extends('master')
-
 @section('Title')
     <title>
-        GadaMaxima - Verifikasi Permintaan
+        GadaMaxima - Pesan
     </title>
 @endsection
 @section('layout')

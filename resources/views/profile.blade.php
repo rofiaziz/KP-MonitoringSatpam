@@ -1,4 +1,9 @@
 @extends('master')
+@section('Title')
+    <title>
+        GadaMaxima - Profile
+    </title>
+@endsection
     @section('layout')
         <div class="content">
             <div class="row">
