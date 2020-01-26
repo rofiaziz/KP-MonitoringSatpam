@@ -17,3 +17,16 @@ Route::get('/', function () {
 Route::get('/profile', function () {
     return view('profile');
 });
+Route::get('/Register', function () {
+    return view('Register');
+});
+
+Route::get('/FormRegister', function () {
+    return view('FormRegister');
+});
+Route::get('/Login', function () {
+    return view('Login');
+});
+Route::get('/JoinNow', function () {
+    return view('JoinNow');
+});

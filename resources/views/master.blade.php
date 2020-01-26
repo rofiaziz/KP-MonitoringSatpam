@@ -48,11 +48,11 @@ The above copyright notice and this permission notice shall be included in all c
       <div class="logo">
         <a href="http://www.creative-tim.com" class="simple-text logo-mini">
           <div class="logo-image-small">
-            <img src="../assets/img/logo-small.png">
+            <img src="assets/images/GarudaMerah Gradient Transparent withCircle.png">
           </div>
         </a>
-        <a href="http://www.creative-tim.com" class="simple-text logo-normal">
-          Creative Tim
+        <a href="" class="simple-text logo-normal" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+          GadaMaxima
           <!-- <div class="logo-image-big">
             <img src="../assets/img/logo-big.png">
           </div> -->
@@ -61,20 +61,18 @@ The above copyright notice and this permission notice shall be included in all c
       <div class="sidebar-wrapper">
         <ul class="nav">
         <!-- icon  -->
-          <li class="active ">
-            <a href="./dashboard.html">
-              <i class="nc-icon nc-bank"></i>
+          <li class="active">
+            <a href="/">
+              <i class="nc-icon nc-layout-11"></i>
               <p>Beranda</p>
             </a>
           </li>
           <li>
-            <a href="./icons.html">
-              <i class="nc-icon nc-diamond"></i>
-              <p>Icons</p>
+            <a href="/Register">
+              <i class="nc-icon nc-paper"></i>
+              <p>Register & Verified</p>
             </a>
           </li>
-          <li>
-             
         </ul>
       </div>
       
@@ -91,7 +89,7 @@ The above copyright notice and this permission notice shall be included in all c
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a class="navbar-brand" href="#pablo">Paper Dashboard 2</a>
+            <a class="navbar-brand" href="#pablo">GadaMaxima Expert Security Service</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>
@@ -198,11 +196,10 @@ The above copyright notice and this permission notice shall be included in all c
   <script src="../assets/js/paper-dashboard.min.js?v=2.0.0" type="text/javascript"></script>
   <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
   <script src="../assets/demo/demo.js"></script>
-  <script>
-    $(document).ready(function() {
-      // Javascript method's body can be found in assets/assets-for-demo/js/demo.js
-      demo.initChartsPages();
-    });
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('a[href="'+this.location.pathname+'"]').addclass('active');
+  });
   </script>
 </body>
 
