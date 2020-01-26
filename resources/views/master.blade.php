@@ -35,6 +35,8 @@ The above copyright notice and this permission notice shall be included in all c
   <link href="../assets/css/paper-dashboard.css?v=2.0.0" rel="stylesheet" />
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="../assets/demo/demo.css" rel="stylesheet" />
+  <!-- fancy css -->
+  <link rel="stylesheet" type="text/css" href="{{ asset('/css/fancy/style.css') }}">
 </head>
 
 <body class="">
