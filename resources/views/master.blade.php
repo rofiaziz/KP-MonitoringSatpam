@@ -59,20 +59,18 @@ The above copyright notice and this permission notice shall be included in all c
       <div class="sidebar-wrapper">
         <ul class="nav">
         <!-- icon  -->
-          <li class="active ">
-            <a href="./dashboard.html">
-              <i class="nc-icon nc-bank"></i>
+          <li class="active">
+            <a href="/">
+              <i class="nc-icon nc-layout-11"></i>
               <p>Beranda</p>
             </a>
           </li>
           <li>
-            <a href="./icons.html">
-              <i class="nc-icon nc-diamond"></i>
-              <p>Icons</p>
+            <a href="/Register">
+              <i class="nc-icon nc-paper"></i>
+              <p>Register & Verified</p>
             </a>
           </li>
-          <li>
-             
         </ul>
       </div>
       
@@ -196,11 +194,10 @@ The above copyright notice and this permission notice shall be included in all c
   <script src="../assets/js/paper-dashboard.min.js?v=2.0.0" type="text/javascript"></script>
   <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
   <script src="../assets/demo/demo.js"></script>
-  <script>
-    $(document).ready(function() {
-      // Javascript method's body can be found in assets/assets-for-demo/js/demo.js
-      demo.initChartsPages();
-    });
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('a[href="'+this.location.pathname+'"]').addclass('active');
+  });
   </script>
 </body>
 

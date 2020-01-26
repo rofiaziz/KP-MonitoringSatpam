@@ -14,3 +14,14 @@
 Route::get('/', function () {
     return view('landing');
 });
+
+Route::get('/Register', function () {
+    return view('Register');
+});
+
+Route::get('/FormRegister', function () {
+    return view('FormRegister');
+});
+Route::get('/Login', function () {
+    return view('Login');
+});
