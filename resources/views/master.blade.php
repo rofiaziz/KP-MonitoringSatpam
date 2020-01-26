@@ -109,8 +109,8 @@ The above copyright notice and this permission notice shall be included in all c
             </form>
             <ul class="navbar-nav">
               <li class="nav-item">
-                <a class="nav-link btn-magnify" href="#pablo">
-                  <i class="nc-icon nc-layout-11"></i>
+                <a class="nav-link btn-magnify" href="/Profile" alt="profile">
+                  <i class="nc-icon nc-single-02"></i>
                   <p>
                     <span class="d-lg-none d-md-block">Stats</span>
                   </p>

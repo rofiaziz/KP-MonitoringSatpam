@@ -14,7 +14,7 @@
 Route::get('/', function () {
     return view('landing');
 });
-Route::get('/profile', function () {
+Route::get('/Profile', function () {
     return view('profile');
 });
 Route::get('/Register', function () {
