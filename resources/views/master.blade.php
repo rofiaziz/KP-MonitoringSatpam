@@ -46,11 +46,11 @@ The above copyright notice and this permission notice shall be included in all c
       <div class="logo">
         <a href="http://www.creative-tim.com" class="simple-text logo-mini">
           <div class="logo-image-small">
-            <img src="../assets/img/logo-small.png">
+            <img src="assets/images/GarudaMerah Gradient Transparent withCircle.png">
           </div>
         </a>
-        <a href="http://www.creative-tim.com" class="simple-text logo-normal">
-          Creative Tim
+        <a href="" class="simple-text logo-normal" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+          GadaMaxima
           <!-- <div class="logo-image-big">
             <img src="../assets/img/logo-big.png">
           </div> -->
@@ -87,7 +87,7 @@ The above copyright notice and this permission notice shall be included in all c
                 <span class="navbar-toggler-bar bar3"></span>
               </button>
             </div>
-            <a class="navbar-brand" href="#pablo">Paper Dashboard 2</a>
+            <a class="navbar-brand" href="#pablo">GadaMaxima Expert Security Service</a>
           </div>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-bar navbar-kebab"></span>

@@ -25,3 +25,6 @@ Route::get('/FormRegister', function () {
 Route::get('/Login', function () {
     return view('Login');
 });
+Route::get('/JoinNow', function () {
+    return view('JoinNow');
+});
