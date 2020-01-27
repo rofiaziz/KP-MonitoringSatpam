@@ -48,3 +48,9 @@ Route::get('/Kategori', function () {
 Route::get('/FormKategori', function () {
     return view('FormKategori');
 });
+Route::get('/Satpam', function () {
+    return view('Satpam');
+});
+Route::get('/FormSatpam', function () {
+    return view('FormSatpam');
+});

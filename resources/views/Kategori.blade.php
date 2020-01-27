@@ -23,67 +23,46 @@
                     <div class="table-responsive">
                         <table class="table">
                             <thead class=" text-primary">
-                                <th style="width:25rem">
+                                <th>
                                     Paket
                                 </th>
-                                                          
+                                <th>
+                                    Jumlah Satpam
+                                </th>
+                                <th>
+                                    Masa Berlangganan
+                                </th>  
+                                <th>
+                                    Tagihan
+                                </th>   
+                                <th>
+                                    Deskripsi paket
+                                </th>   
+                                <th>
+                                    Kelola
+                                </th>                      
                             </thead>
                             <tbody>
                             <tr>
                                 <td>
                                 Paket 1
                                 </td>
-                            </tr>
-                            </tbody>                            
-                            <thead class=" text-primary">
-                                <th style="width:25rem">
-                                    Jumlah Client
-                                </th>                         
-                            </thead>
-                            <tbody>
-                            <tr>
                                 <td>
-                                    100
+                                100
                                 </td>
-                            </tr>
-                            </tbody>
-                            <thead class=" text-primary">
-                                <th style="width:25rem">
-                                    Masa Berlangganan
-                                </th>                         
-                            </thead>
-                            <tbody>
-                            <tr>
                                 <td>
                                 12 Bulan
                                 </td>
-                                
-                            </tr>
-                            </tbody>
-                            <thead class=" text-primary">
-                                <th style="width:25rem">
-                                    Tagihan
-                                </th>                         
-                            </thead>
-                            <tbody>
-                            <tr>
                                 <td>
-                                    Rp. 10.000.000
+                                10.000.000
                                 </td>
-                                
-                            </tr>
-                            </tbody>
-                            <thead class=" text-primary">
-                                <th style="width:25rem">
-                                    Deskripsi Paket
-                                </th>                         
-                            </thead>
-                            <tbody>
-                            <tr>
                                 <td>
-                                    Paket ini berisi 100 client
+                                    Deskripsi Paket yang berisi keterangan mengenai biaya serta jumlah satpam yang bisa didapatkan
                                 </td>
-                                
+                                <td>
+                                    <a href="/FormRegister" class="btn btn-info">Edit</a>
+                                    <a href="/FormRegister" class="btn btn-danger">Hapus</a>
+                                </td>
                             </tr>
                             </tbody>
                         </table>

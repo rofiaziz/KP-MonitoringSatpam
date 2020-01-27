@@ -31,7 +31,10 @@
                                 </th>
                                 <th>
                                     Kecamatan
-                                </th>                            
+                                </th>  
+                                <th>
+                                    Kelola
+                                </th>                          
                             </thead>
                             <tbody>
                             <tr>
@@ -43,6 +46,10 @@
                                 </td>
                                 <td>
                                 Pejagoan
+                                </td>
+                                <td>
+                                    <a href="/FormRegister" class="btn btn-info">Edit</a>
+                                    <a href="/FormRegister" class="btn btn-danger">Hapus</a>
                                 </td>
                             </tr>
                             </tbody>
