@@ -73,6 +73,18 @@ The above copyright notice and this permission notice shall be included in all c
             </a>
           </li>
           <li>
+            <a href="/Kategori">
+              <i class="nc-icon nc-tile-56"></i>
+              <p>Kategori</p>
+            </a>
+          </li>
+          <li>
+            <a href="/Kota">
+              <i class="nc-icon nc-shop"></i>
+              <p>Kota</p>
+            </a>
+          </li>          
+          <li>
             <a href="/Message">
               <i class="nc-icon nc-email-85"></i>
               <p>Pesan</p>
