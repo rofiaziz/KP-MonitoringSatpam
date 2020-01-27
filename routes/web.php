@@ -36,3 +36,15 @@ Route::get('/Message', function () {
 Route::get('/AddMessage',function(){
     return view('AddMessage');
 });
+Route::get('/Kota', function () {
+    return view('Kota');
+});
+Route::get('/FormKota', function () {
+    return view('FormKota');
+});
+Route::get('/Kategori', function () {
+    return view('Kategori');
+});
+Route::get('/FormKategori', function () {
+    return view('FormKategori');
+});
