@@ -33,3 +33,6 @@ Route::get('/JoinNow', function () {
 Route::get('/Message', function () {
     return view('Message');
 });
+Route::get('/AddMessage',function(){
+    return view('AddMessage');
+});

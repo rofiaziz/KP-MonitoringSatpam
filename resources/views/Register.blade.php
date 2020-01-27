@@ -34,9 +34,6 @@
                     Client
                   </th>
                   <th>
-                    Paket
-                  </th>
-                  <th>
                     Masa Berlangganan
                   </th>
                   <th>
@@ -56,9 +53,6 @@
                     </td>
                     <td>
                       Oud-Turnhout
-                    </td>
-                    <td>
-                      Paket 1
                     </td>
                     <td>
                       12 Bulan

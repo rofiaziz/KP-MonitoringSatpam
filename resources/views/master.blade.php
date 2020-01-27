@@ -34,7 +34,8 @@ The above copyright notice and this permission notice shall be included in all c
   <!-- CSS Just for demo purpose, don't include it in your project -->
   <link href="../assets/demo/demo.css" rel="stylesheet" />
   <!-- fancy css -->
-  <link rel="stylesheet" type="text/css" href="{{ asset('/css/fancy/style.css') }}">
+  <link rel="stylesheet" type="text/css" href="/css/fancy/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/Own.css">
 </head>
 
 <body class="">
