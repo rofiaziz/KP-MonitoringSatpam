@@ -30,3 +30,15 @@ Route::get('/Login', function () {
 Route::get('/JoinNow', function () {
     return view('JoinNow');
 });
+Route::get('/Kota', function () {
+    return view('Kota');
+});
+Route::get('/FormKota', function () {
+    return view('FormKota');
+});
+Route::get('/Kategori', function () {
+    return view('Kategori');
+});
+Route::get('/FormKategori', function () {
+    return view('FormKategori');
+});
