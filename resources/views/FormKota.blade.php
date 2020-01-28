@@ -1,7 +1,7 @@
 @extends('master')
 @section('Title')
     <title>
-        GadaMaxima - Tambah Kota
+        GadaMaxima - Tambah Lokasi
     </title>
 @endsection
 @section('layout')

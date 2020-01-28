@@ -7,3 +7,30 @@
     height:400px;
     overflow:auto;
 }
+
+
+.JoinNow-Hero{
+    background: linear-gradient(135deg,rgb(42, 225, 231),rgb(212, 13, 212));
+}
+.Title{
+    text-align: center;
+    padding-top: 6px;
+    margin-top: 6px;
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+}
+.card-borderRound{
+    border-radius: 25px;
+    border: none;
+    box-shadow: none;
+}
+.buttonbackground{
+    background: linear-gradient(135deg,rgb(42, 225, 231),rgb(212, 13, 212));
+    border-radius: 19px;
+    border: none;
+}
+.buttonbackground:hover{
+    background: transparent;
+    border: rgb(212, 13, 212) solid 2px;
+    color: rgb(212, 13, 212);
+}

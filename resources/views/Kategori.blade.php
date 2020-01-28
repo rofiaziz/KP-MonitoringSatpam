@@ -15,7 +15,7 @@
                                 <h4 class="card-title">Daftar Kategori Paket</h4>
                             </div>
                         <div class="col-md-2 offset-md-1">
-                            <a href="/FormRegister" class="btn btn-info">+ Daftar Baru</a>
+                            <a href="/FormKategori" class="btn btn-info">+ Tambah Paket</a>
                         </div>
                     </div>            
                 </div>
@@ -38,7 +38,7 @@
                                 <th>
                                     Deskripsi paket
                                 </th>   
-                                <th>
+                                <th style="text-align:center">
                                     Kelola
                                 </th>                      
                             </thead>
@@ -60,8 +60,10 @@
                                     Deskripsi Paket yang berisi keterangan mengenai biaya serta jumlah satpam yang bisa didapatkan
                                 </td>
                                 <td>
-                                    <a href="/FormRegister" class="btn btn-info">Edit</a>
-                                    <a href="/FormRegister" class="btn btn-danger">Hapus</a>
+                                    <div class="row" style="padding:0; margin:0">
+                                        <div class="col-md-6"><a href="/FormRegister" class="btn btn-info"><i class="nc-icon nc-single-copy-04"></i></a></div>
+                                        <div class="col-md-6"><a href="/FormRegister" class="btn btn-danger"><i class="nc-icon nc-basket"></i></a></div>
+                                    </div>
                                 </td>
                             </tr>
                             </tbody>
