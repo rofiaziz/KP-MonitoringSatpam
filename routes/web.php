@@ -28,7 +28,7 @@ Route::get('/Login', function () {
     return view('Login');
 });
 Route::get('/JoinNow', function () {
-    return view('JoinNow');
+    return view('Join');
 });
 Route::get('/Message', function () {
     return view('Message');
