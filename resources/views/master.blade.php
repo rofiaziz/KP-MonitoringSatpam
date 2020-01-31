@@ -50,7 +50,7 @@ The above copyright notice and this permission notice shall be included in all c
             <img src="assets/images/GarudaMerah Gradient Transparent withCircle.png">
           </div>
         </a>
-        <a href="" class="simple-text logo-normal" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">
+        <a href="" class="simple-text logo-normal" style="font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size:20px">
           GadaMaxima
           <!-- <div class="logo-image-big">
             <img src="../assets/img/logo-big.png">
@@ -61,33 +61,36 @@ The above copyright notice and this permission notice shall be included in all c
         <ul class="nav">
         <!-- icon  -->
           <li class="active">
-            <a href="/">
+            <a href="/"  style="font-size:15px">
               <i class="nc-icon nc-layout-11"></i>
-              <p>Beranda</p>
+              Beranda
             </a>
           </li>
           <li>
-            <a href="/Register">
-              <i class="nc-icon nc-paper"></i>
-              <p>Permintaan dan Verifikasi</p>
-            </a>
-          </li>
+            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle" style="font-size:15px">
+              <i class="nc-icon nc-shop"></i>Outsourcing</a>
+              <ul class="collapse" id="homeSubmenu">
+                <li style="margin-left:15px">
+                  <a href="/Register"><i class="nc-icon nc-paper" style="font-size:15px; margin:0px"></i>Permintaan & Verifikasi</a>
+                </li>
+                <li style="margin-left:15px">
+                  <a href="#"><i class="nc-icon nc-bank" style="font-size:15px; margin:0px"></i>Daftar Pelanggan</a>
+                </li>
+                <li style="margin-left:15px">
+                  <a href="#"><i class="nc-icon nc-single-02" style="font-size:15px; margin:0px"></i>Daftar Satpam</a>
+                </li>
+            </ul>
+        </li>
           <li>
-            <a href="/Kategori">
+            <a href="/Kategori" style="font-size:15px">
               <i class="nc-icon nc-tile-56"></i>
-              <p>Kategori</p>
-            </a>
-          </li>
-          <li>
-            <a href="/Kota">
-              <i class="nc-icon nc-shop"></i>
-              <p>Kota</p>
+              Kategori
             </a>
           </li>          
           <li>
-            <a href="/Message">
-              <i class="nc-icon nc-email-85"></i>
-              <p>Pesan</p>
+            <a href="/Message" style="font-size:15px">
+              <i class="nc-icon nc-chat-33"></i>
+              Pesan
             </a>
           </li>
         </ul>

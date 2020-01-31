@@ -45,7 +45,7 @@
                             <tbody>
                             <tr>
                                 <td>
-                                Paket 1
+                                    1
                                 </td>
                                 <td>
                                 100
@@ -57,8 +57,13 @@
                                 10.000.000
                                 </td>
                                 <td>
-                                    Deskripsi Paket yang berisi keterangan mengenai biaya serta jumlah satpam yang bisa didapatkan
-                                </td>
+                                    <div id="module" class="container">
+                                        Deskripsi Paket yang berisi keterangan mengenai biaya serta jumlah satpam yang bisa didapatkan
+                                        <p class="collapse" id="collapseExample" aria-expanded="false">
+                                            mengenai biaya serta jumlah satpam yang bisa didapatkan</p>
+                                            <a role="button" class="collapsed" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample"></a>
+                                    </div>
+                                    </td>
                                 <td>
                                     <div class="row" style="padding:0; margin:0">
                                         <div class="col-md-6"><a href="/FormRegister" class="btn btn-info"><i class="nc-icon nc-single-copy-04"></i></a></div>

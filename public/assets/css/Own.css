@@ -27,6 +27,20 @@ body {
     margin-top: 6px;
     font-size: 35px;
 }
+.submenu {
+    font-size:15px
+}
+#module {
+    width: 500px;
+  }
+  
+  #module a.collapsed:after {
+    content: '+ Show More';
+  }
+  
+  #module a:not(.collapsed):after {
+    content: '- Show Less';
+  }
 /* .scroll{
     display:block;
     border: none;
