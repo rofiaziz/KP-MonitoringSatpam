@@ -44,26 +44,29 @@
                   </th>
                 </thead>
                 <tbody>
+                  @foreach ($Register as $row)                    
+            
                   <tr>
                     <td>
-                      Satpam Indo
+                      {{$row->nama_perusahaan}}
                     </td>
                     <td>
-                      Satpamindo221
+                      {{$row->email_perusahaan}}
                     </td>
                     <td>
-                      Oud-Turnhout
+                      {{$row->jumlah_client}}
                     </td>
                     <td>
-                      12 Bulan
+                      {{$row->masa_berlangganan}}
                     </td>
                     <td>
-                     RP. 10.000.000
+                     {{$row->tagihan}}
                     </td>
                     <td>
                     <button type="button" class="btn btn-success">Verified</button>
                     </td>
                   </tr>
+                  @endforeach
                 </tbody>
               </table>
             </div>

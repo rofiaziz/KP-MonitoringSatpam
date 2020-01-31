@@ -17,9 +17,9 @@ Route::get('/', function () {
 Route::get('/Profile', function () {
     return view('profile');
 });
-Route::get('/Register', function () {
-    return view('Register');
-});
+// Route::get('/Register', function () {
+//     return view('Register');
+// });
 
 Route::get('/FormRegister', function () {
     return view('FormRegister');
@@ -54,3 +54,8 @@ Route::get('/Satpam', function () {
 Route::get('/FormSatpam', function () {
     return view('FormSatpam');
 });
+
+
+// Register
+Route::get('Register','RegisterController@index')  ;
+Route::get('Register/input','RegisterController@input')  ;
