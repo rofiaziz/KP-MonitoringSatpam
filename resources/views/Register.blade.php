@@ -51,16 +51,16 @@
                       {{$row->nama_perusahaan}}
                     </td>
                     <td>
-                      {{email_perusahaan}}
+                      {{$row->email_perusahaan}}
                     </td>
                     <td>
-                      {{jumlah_client}}
+                      {{$row->jumlah_client}}
                     </td>
                     <td>
-                      {{masa_berlangganan}}
+                      {{$row->masa_berlangganan}}
                     </td>
                     <td>
-                     {{tagihan}}
+                     {{$row->tagihan}}
                     </td>
                     <td>
                     <button type="button" class="btn btn-success">Verified</button>

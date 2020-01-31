@@ -15,5 +15,21 @@ class RegisterController extends Controller
     }
 
 
+    public function input(Request $request){
+        DB::table('perusahaan')->insert([
+            'nama_perusahaan' => $request->nama,
+            'email_perusahaan' => $request->email,
+            'password' => $request->password,
+            'kota' => $request->kota,
+            'tentang' => $request->tentang,
+            'jumlah_client'=> $request->client,
+            'jumlah_satpam'=> $request->satpam,
+            'id_paket' => $request->paket
+
+        ]);
+        return redirect('/Register');
+    }
+
+
 }
 ?>

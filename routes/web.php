@@ -56,5 +56,6 @@ Route::get('/FormSatpam', function () {
 });
 
 
-
+// Register
 Route::get('Register','RegisterController@index')  ;
+Route::get('Register/input','RegisterController@input')  ;
